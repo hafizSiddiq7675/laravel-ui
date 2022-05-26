@@ -16,4 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource(name:'ui',Controller=)
+Route::get('/ui', function () {
+    return view('ui');
+});
+Route::get('/steps', function () {
+    return view('steps');
+});
+Route::get('/hidden', function () {
+    return view('hidden');
+});
+
+
+
