@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Progress Steps</title>
-        <link rel="stylesheet" href="../css/style1.css" />
+        <link rel="stylesheet" href="../css/steps.css" />
     </head>
     <body>
         <div class="container">
@@ -19,7 +19,7 @@
             <button class="btn" id="next">Next</button>
           </div>
 
-    <script src="../js/script1.js"></script>
+    <script src="../js/steps.js"></script>
 
     </body>
 </html>
