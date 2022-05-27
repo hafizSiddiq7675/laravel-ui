@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/ui', function () {
+    return view('ui');
+});
+Route::get('/Process steps', function () {
+    return view('Process steps');
+});
+Route::get('/hidden search wizard', function () {
+    return view('hidden search wizard');
+});
+
+
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
